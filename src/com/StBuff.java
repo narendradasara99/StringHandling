@@ -1,24 +1,24 @@
 package com;
 
 public class StBuff {
+	public static void main(String[] args) {		
+		StringBuffer s=new StringBuffer("abc");
+		s.append(" is  Sequence of characters ");
+		System.out.println(s);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		StringBuffer s=new StringBuffer();
-	s.append("dhhdh");
-	System.out.println(s);
-		System.out.println(s.capacity());//16
-		StringBuffer s2=new StringBuffer("abc");
-		System.out.println(s2.capacity());//19
-		StringBuffer s3=new StringBuffer(3);
-		System.out.println(s3.capacity());//3
+		s.insert( 2,"efghjklmnopqrstuvwxyz");
+		System.out.println(s);
+
+
+		s.replace(2, 6, " narendra is good boy");
+		System.out.println(s);
+
+		s.delete(2, 9);
+		System.out.println(s);
 		
+		s.reverse();
+		System.out.println(s);
 		
-		//append
-		
-
-
-
 	}
 
 }

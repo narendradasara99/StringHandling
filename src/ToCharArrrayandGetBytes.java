@@ -6,12 +6,13 @@ public class ToCharArrrayandGetBytes {
 		// TODO Auto-generated method stub
 		
 		String s="narendra is good";
-		char[] c=s.toCharArray();
-		byte[]b=s.getBytes();
-		System.out.println(Arrays.toString(c));
-		System.out.println(Arrays.toString(b));
-		System.out.println(c.length);
-
+		char a[]=s.toCharArray();
+		System.out.println(Arrays.toString(a));
+		byte aa[]=s.getBytes();
+		System.out.println(Arrays.toString(aa));
+		 String sss=String.valueOf(7855);
+		 System.out.println(s);
+		 
 
 	}
 
